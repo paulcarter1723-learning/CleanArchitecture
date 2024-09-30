@@ -21,7 +21,7 @@ namespace CleanArchitecture.Core.Locations.ValueObjects
             return new Coordinates(latitude, longitude);
         }
 
-        protected override IEnumerable<IComparable> GetEqualityComponents()
+        protected override IEnumerable<object> GetEqualityComponents()
         {
             yield return Latitude;
             yield return Longitude;

@@ -29,7 +29,7 @@ namespace CleanArchitecture.Core.Weather.ValueObjects
         public static int ConvertToCelcius(int farenheit) => (int)Math.Round((farenheit - 32) * (5.0 / 9.0), 0);
         public static int ConvertToFarenheit(int celcius) => 32 + (int)Math.Round((celcius / 0.5556), 0);
 
-        protected override IEnumerable<IComparable> GetEqualityComponents()
+        protected override IEnumerable<object> GetEqualityComponents()
         {
             yield return Celcius;
         }
