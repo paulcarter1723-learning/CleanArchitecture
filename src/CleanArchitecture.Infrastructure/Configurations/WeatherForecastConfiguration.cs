@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.Core.Locations.Entities;
-using CleanArchitecture.Core.Weather.Entities;
+﻿using CleanArchitecture.Domain.Locations.Entities;
+using CleanArchitecture.Domain.Weather.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

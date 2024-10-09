@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using CleanArchitecture.Application.Locations.Models;
-using CleanArchitecture.Core.Locations.Entities;
+using CleanArchitecture.Domain.Locations.Entities;
 
 namespace CleanArchitecture.Application.Locations.MappingProfiles
 {

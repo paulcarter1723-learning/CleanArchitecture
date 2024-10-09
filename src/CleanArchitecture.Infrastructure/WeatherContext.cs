@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Core.Weather.Entities;
-using CleanArchitecture.Core.Locations.Entities;
-using CleanArchitecture.Core.Abstractions.Entities;
+﻿using CleanArchitecture.Domain.Weather.Entities;
+using CleanArchitecture.Domain.Locations.Entities;
+using CleanArchitecture.Domain.Abstractions.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using CleanArchitecture.Infrastructure.Configurations;

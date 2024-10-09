@@ -42,7 +42,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj" />
-    <ProjectReference Include="..\CleanArchitecture.Core.Tests\CleanArchitecture.Core.Tests.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Domain.Tests\CleanArchitecture.Domain.Tests.csproj" />
   </ItemGroup>
 
   <ItemGroup>

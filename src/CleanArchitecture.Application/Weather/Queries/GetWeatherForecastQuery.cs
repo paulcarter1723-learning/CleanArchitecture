@@ -2,8 +2,8 @@
 using CleanArchitecture.Application.Abstractions.Queries;
 using CleanArchitecture.Application.Weather.Models;
 using CleanArchitecture.Application.Abstractions.Repositories;
-using CleanArchitecture.Core.Weather.Entities;
-using CleanArchitecture.Core.Abstractions.Guards;
+using CleanArchitecture.Domain.Weather.Entities;
+using CleanArchitecture.Domain.Abstractions.Guards;
 
 namespace CleanArchitecture.Application.Weather.Queries
 {

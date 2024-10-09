@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using CleanArchitecture.Application.Weather.Models;
-using CleanArchitecture.Core.Weather.Entities;
+using CleanArchitecture.Domain.Weather.Entities;
 
 namespace CleanArchitecture.Application.Weather.MappingProfiles
 {

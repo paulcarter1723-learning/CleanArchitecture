@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using CleanArchitecture.Core.Abstractions.DomainEvents;
+using CleanArchitecture.Domain.Abstractions.DomainEvents;
 using Microsoft.Extensions.Logging;
 
 namespace CleanArchitecture.Application.Abstractions.DomainEventHandlers

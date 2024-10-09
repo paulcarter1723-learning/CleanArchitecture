@@ -1,9 +1,9 @@
 ﻿using CleanArchitecture.Application.Abstractions.Repositories;
-using CleanArchitecture.Core.Abstractions.Entities;
-using CleanArchitecture.Core.Locations.Entities;
-using CleanArchitecture.Core.Tests.Builders;
-using CleanArchitecture.Core.Tests.Factories;
-using CleanArchitecture.Core.Weather.Entities;
+using CleanArchitecture.Domain.Abstractions.Entities;
+using CleanArchitecture.Domain.Locations.Entities;
+using CleanArchitecture.Domain.Tests.Builders;
+using CleanArchitecture.Domain.Tests.Factories;
+using CleanArchitecture.Domain.Weather.Entities;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Text.Json;
 using System.Text;

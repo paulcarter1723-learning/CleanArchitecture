@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Core.Locations.ValueObjects;
+﻿using CleanArchitecture.Domain.Locations.ValueObjects;
 using CleanArchitecture.Hosting;
 using CleanArchitecture.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using CleanArchitecture.Core.Locations.Entities;
+using CleanArchitecture.Domain.Locations.Entities;
 
 namespace CleanArchitecture.Migrations
 {

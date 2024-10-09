@@ -1,7 +1,7 @@
 using CSharpFunctionalExtensions;
 using CleanArchitecture.Application.Abstractions.DomainEventHandlers;
-using CleanArchitecture.Core.Abstractions.DomainEvents;
-using CleanArchitecture.Core.Abstractions.Entities;
+using CleanArchitecture.Domain.Abstractions.DomainEvents;
+using CleanArchitecture.Domain.Abstractions.Entities;
 
 namespace CleanArchitecture.Arch.Tests
 {
@@ -38,7 +38,7 @@ namespace CleanArchitecture.Arch.Tests
         public void DomainDrivenDesign_Aggregates_ShouldOnlyResideInCore()
         {
             AllTypes.That().Inherit(typeof(AggregateRoot))
-                .Should().ResideInNamespaceStartingWith("CleanArchitecture.Core")
+                .Should().ResideInNamespaceStartingWith("CleanArchitecture.Domain")
                 .AssertIsSuccessful();
         }
 
@@ -46,7 +46,7 @@ namespace CleanArchitecture.Arch.Tests
         public void DomainDrivenDesign_DomainEvents_ShouldOnlyResideInCore()
         {
             AllTypes.That().Inherit(typeof(DomainEvent))
-                .Should().ResideInNamespaceStartingWith("CleanArchitecture.Core")
+                .Should().ResideInNamespaceStartingWith("CleanArchitecture.Domain")
                 .AssertIsSuccessful();
         }
 

@@ -2,7 +2,7 @@
 using CleanArchitecture.Application.Abstractions.Queries;
 using CleanArchitecture.Application.Abstractions.Repositories;
 using CleanArchitecture.Application.Locations.Models;
-using CleanArchitecture.Core.Locations.Entities;
+using CleanArchitecture.Domain.Locations.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.Application.Locations.Queries

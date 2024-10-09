@@ -1,14 +1,14 @@
 ﻿using MediatR;
 using Autofac;
-using CleanArchitecture.Core.Abstractions.Entities;
+using CleanArchitecture.Domain.Abstractions.Entities;
 using CleanArchitecture.Application.Abstractions.Repositories;
 using CleanArchitecture.Infrastructure.AutofacModules;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using CleanArchitecture.Core.Tests.Builders;
-using CleanArchitecture.Core.Locations.Entities;
+using CleanArchitecture.Domain.Tests.Builders;
+using CleanArchitecture.Domain.Locations.Entities;
 
 namespace CleanArchitecture.Infrastructure.Tests.Repositories.Abstract
 {

@@ -1,6 +1,6 @@
 ﻿using CleanArchitecture.Application.Abstractions.Repositories;
-using CleanArchitecture.Core.Abstractions.DomainEvents;
-using CleanArchitecture.Core.Abstractions.Entities;
+using CleanArchitecture.Domain.Abstractions.DomainEvents;
+using CleanArchitecture.Domain.Abstractions.Entities;
 using MediatR;
 
 namespace CleanArchitecture.Infrastructure.Repositories

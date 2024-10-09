@@ -1,5 +1,5 @@
 ﻿using CleanArchitecture.Application.AutofacModules;
-using CleanArchitecture.Core.Abstractions.Entities;
+using CleanArchitecture.Domain.Abstractions.Entities;
 using CleanArchitecture.Infrastructure.AutofacModules;
 using System.Reflection;
 

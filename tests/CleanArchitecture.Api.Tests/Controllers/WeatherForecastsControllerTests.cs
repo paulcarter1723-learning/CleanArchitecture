@@ -1,7 +1,7 @@
 ﻿using CleanArchitecture.Api.Infrastructure.ActionResults;
 using CleanArchitecture.Application.Weather.Models;
-using CleanArchitecture.Core.Tests.Builders;
-using CleanArchitecture.Core.Weather.Entities;
+using CleanArchitecture.Domain.Tests.Builders;
+using CleanArchitecture.Domain.Weather.Entities;
 
 namespace CleanArchitecture.Api.Tests.Controllers
 {

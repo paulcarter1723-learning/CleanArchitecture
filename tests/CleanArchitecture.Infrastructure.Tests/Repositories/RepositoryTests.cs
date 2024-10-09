@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.Core.Tests.Builders;
-using CleanArchitecture.Core.Weather.Entities;
+﻿using CleanArchitecture.Domain.Tests.Builders;
+using CleanArchitecture.Domain.Weather.Entities;
 using CleanArchitecture.Infrastructure.Tests.Repositories.Abstract;
 
 namespace CleanArchitecture.Infrastructure.Tests.Repositories

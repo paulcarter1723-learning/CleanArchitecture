@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Core.Abstractions.Entities;
+﻿using CleanArchitecture.Domain.Abstractions.Entities;
 
 namespace CleanArchitecture.Application.Abstractions.Repositories
 {

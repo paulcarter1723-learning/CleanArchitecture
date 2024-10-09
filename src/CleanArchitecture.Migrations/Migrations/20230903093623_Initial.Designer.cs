@@ -38,7 +38,7 @@ namespace CleanArchitecture.Migrations.Migrations
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 #endif
 
-            modelBuilder.Entity("CleanArchitecture.Core.Locations.Entities.Location", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Locations.Entities.Location", b =>
                 {
                     b.Property<Guid>("Id")
 #if (UseSqlServer)
@@ -60,7 +60,7 @@ namespace CleanArchitecture.Migrations.Migrations
                     b.ToTable("Locations");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Weather.Entities.WeatherForecast", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Weather.Entities.WeatherForecast", b =>
                 {
                     b.Property<Guid>("Id")
 #if (UseSqlServer)
@@ -94,9 +94,9 @@ namespace CleanArchitecture.Migrations.Migrations
                     b.ToTable("WeatherForecasts");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Locations.Entities.Location", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Locations.Entities.Location", b =>
                 {
-                    b.OwnsOne("CleanArchitecture.Core.Locations.ValueObjects.Coordinates", "Coordinates", b1 =>
+                    b.OwnsOne("CleanArchitecture.Domain.Locations.ValueObjects.Coordinates", "Coordinates", b1 =>
                         {
                             b1.Property<Guid>("LocationId")
 #if (UseSqlServer)
@@ -133,15 +133,15 @@ namespace CleanArchitecture.Migrations.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Core.Weather.Entities.WeatherForecast", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Weather.Entities.WeatherForecast", b =>
                 {
-                    b.HasOne("CleanArchitecture.Core.Locations.Entities.Location", null)
+                    b.HasOne("CleanArchitecture.Domain.Locations.Entities.Location", null)
                         .WithMany()
                         .HasForeignKey("LocationId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.OwnsOne("CleanArchitecture.Core.Weather.ValueObjects.Temperature", "Temperature", b1 =>
+                    b.OwnsOne("CleanArchitecture.Domain.Weather.ValueObjects.Temperature", "Temperature", b1 =>
                         {
                             b1.Property<Guid>("WeatherForecastId")
 #if (UseSqlServer)

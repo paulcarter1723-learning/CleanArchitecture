@@ -1,7 +1,7 @@
 ﻿using CleanArchitecture.Application.Abstractions.Commands;
 using CleanArchitecture.Application.Abstractions.Repositories;
-using CleanArchitecture.Core.Weather.Entities;
-using CleanArchitecture.Core.Abstractions.Guards;
+using CleanArchitecture.Domain.Weather.Entities;
+using CleanArchitecture.Domain.Abstractions.Guards;
 
 namespace CleanArchitecture.Application.Weather.Commands
 {

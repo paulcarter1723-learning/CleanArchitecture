@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Core.Locations.Entities;
+﻿using CleanArchitecture.Domain.Locations.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

@@ -1,7 +1,7 @@
 ﻿using CleanArchitecture.Application.Abstractions.DomainEventHandlers;
-using CleanArchitecture.Core.Weather.DomainEvents;
+using CleanArchitecture.Domain.Weather.DomainEvents;
 using Microsoft.Extensions.Logging;
-using CleanArchitecture.Core.Abstractions.Services;
+using CleanArchitecture.Domain.Abstractions.Services;
 
 namespace CleanArchitecture.Application.Weather.DomainEventHandlers
 {

@@ -25,7 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\CleanArchitecture.Api\CleanArchitecture.Api.csproj" />
-    <ProjectReference Include="..\CleanArchitecture.Core.Tests\CleanArchitecture.Core.Tests.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Domain.Tests\CleanArchitecture.Domain.Tests.csproj" />
   </ItemGroup>
 
 </Project>

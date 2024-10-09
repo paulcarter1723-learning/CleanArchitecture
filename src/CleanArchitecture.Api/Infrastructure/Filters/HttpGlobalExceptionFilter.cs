@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Core.Abstractions.Exceptions;
+﻿using CleanArchitecture.Domain.Abstractions.Exceptions;
 using CleanArchitecture.Api.Infrastructure.ActionResults;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System.Net;

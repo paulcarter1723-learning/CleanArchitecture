@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Core.Tests.Builders;
+﻿using CleanArchitecture.Domain.Tests.Builders;
 using CleanArchitecture.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 

@@ -95,7 +95,7 @@ The solution is broken down into the following projects:
 
 - **CleanArchitecture.Api** - ASP.NET 7 Web API with Swagger support
 - **CleanArchitecture.Application** - Application layer containing Commands/Queries/Domain Event Handlers
-- **CleanArchitecture.Core** - Domain layer containing Entities and Domain Events
+- **CleanArchitecture.Domain** - Domain layer containing Entities and Domain Events
 - **CleanArchitecture.Infrastructure** - Infrastructure layer for all external integration e.g. database, notifications, serialization
 - **CleanArchitecture.Web** - Angular SPA hosted using ASP.NET 7
 - **CleanArchitecture.Hosting** - Hosting cross-cutting concerns e.g. configuration and logging

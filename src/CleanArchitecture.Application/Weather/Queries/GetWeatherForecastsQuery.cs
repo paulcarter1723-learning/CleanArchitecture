@@ -2,7 +2,7 @@
 using CleanArchitecture.Application.Abstractions.Queries;
 using CleanArchitecture.Application.Weather.Models;
 using CleanArchitecture.Application.Abstractions.Repositories;
-using CleanArchitecture.Core.Weather.Entities;
+using CleanArchitecture.Domain.Weather.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.Application.Weather.Queries

@@ -16,7 +16,7 @@ namespace CleanArchitecture.Arch.Tests
         [Fact]
         public void CleanArchitecture_Layers_CoreDoesNotReferenceOuter()
         {
-            var coreTypes = AllTypes.That().ResideInNamespace("CleanArchitecture.Core");
+            var coreTypes = AllTypes.That().ResideInNamespace("CleanArchitecture.Domain");
 
             coreTypes.ShouldNot().HaveDependencyOn("CleanArchitecture.Infrastructure")
                 .AssertIsSuccessful();

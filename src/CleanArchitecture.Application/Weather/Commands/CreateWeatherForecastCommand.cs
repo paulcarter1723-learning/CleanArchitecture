@@ -1,9 +1,9 @@
 ﻿using CleanArchitecture.Application.Abstractions.Commands;
 using CleanArchitecture.Application.Abstractions.Repositories;
-using CleanArchitecture.Core.Abstractions.Guards;
-using CleanArchitecture.Core.Locations.Entities;
-using CleanArchitecture.Core.Weather.Entities;
-using CleanArchitecture.Core.Weather.ValueObjects;
+using CleanArchitecture.Domain.Abstractions.Guards;
+using CleanArchitecture.Domain.Locations.Entities;
+using CleanArchitecture.Domain.Weather.Entities;
+using CleanArchitecture.Domain.Weather.ValueObjects;
 
 namespace CleanArchitecture.Application.Weather.Commands
 {
