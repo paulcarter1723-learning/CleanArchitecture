@@ -1,5 +1,7 @@
 using Autofac;
 using CleanArchitecture.Api.Infrastructure.Filters;
+using CleanArchitecture.Api.Services;
+using CleanArchitecture.Application.Abstractions.Services;
 using CleanArchitecture.Application.AutofacModules;
 using CleanArchitecture.Infrastructure.AutofacModules;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
@@ -45,6 +47,9 @@ builder.Services.AddHsts(options =>
     options.IncludeSubDomains = true;
     options.MaxAge = TimeSpan.FromDays(365);
 });
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<IUser, CurrentUserService>();
 
 builder.Host.ConfigureContainer<ContainerBuilder>(container =>
 {

@@ -2,6 +2,7 @@
 using Autofac;
 using AutoMapper;
 using System.Reflection;
+using CleanArchitecture.Application.Pipelines;
 
 namespace CleanArchitecture.Application.AutofacModules
 {
@@ -19,6 +20,12 @@ namespace CleanArchitecture.Application.AutofacModules
             // Register the Command and Query handler classes (they implement IRequestHandler<>)
             builder.RegisterAssemblyTypes(ThisAssembly)
                 .AsClosedTypesOf(typeof(IRequestHandler<,>));
+
+            // Register Pipeline Behaviors
+            builder.RegisterGeneric(typeof(LoggingBehavior<,>))
+                .As(typeof(IPipelineBehavior<,>));
+            builder.RegisterGeneric(typeof(AuthorizationBehavior<,>))
+                .As(typeof(IPipelineBehavior<,>));
 
             // Register Automapper profiles
             var config = new MapperConfiguration(cfg => { cfg.AddMaps(ThisAssembly); });
