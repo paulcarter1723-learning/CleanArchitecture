@@ -2,6 +2,7 @@ using CleanArchitecture.Application.Abstractions.Repositories;
 
 namespace CleanArchitecture.Arch.Tests
 {
+    // Enforces the layer boundaries of the project structure (ADR-0001).
     [Collection("Sequential")]
     public class CleanArchitectureTests : BaseTests
     {

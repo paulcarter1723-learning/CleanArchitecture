@@ -9,7 +9,7 @@ INDEX = ROOT / "docs" / "DECISIONS.md"
 
 # Where citations can appear, and in which files. Adjust both to your tree.
 SCANNED = ["src", "tests", "docs", "AGENTS.md", "CLAUDE.md"]
-SUFFIXES = {".py", ".ts", ".tsx", ".md"}
+SUFFIXES = {".py", ".ts", ".tsx", ".md", ".cs"}
 SKIPPED = {"node_modules", "dist", "__pycache__"}
 
 CITATION = re.compile(r"ADR-\d{4}")

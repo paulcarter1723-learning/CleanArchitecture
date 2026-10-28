@@ -55,3 +55,7 @@ the tree records this, and it is what a future reader most often comes for.
 ## The records
 
 One `###` heading per area of the system, with that area's rows under it.
+
+### Architecture
+
+- **[ADR-0001](decisions/0001-follow-clean-architecture-project-structure.md)** — The solution follows the Clean Architecture project structure
